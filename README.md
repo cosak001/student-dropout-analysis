@@ -4,7 +4,7 @@
 
 Analysis of 600 first-year student records from a case-study college, covering observed retention patterns, predictive modeling, and an interactive Tableau dashboard built for administrators.
 
-**[View the interactive dashboard →](PASTE_YOUR_TABLEAU_LINK_HERE)**
+**[View the interactive dashboard →](https://public.tableau.com/views/StudentDropoutAnalysis_17897246641970/StudentDropoutRiskPatterns?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
 ![Dropout Findings dashboard](images/dropout_findings.png)
 
