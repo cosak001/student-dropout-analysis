@@ -15,7 +15,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report, roc_auc_score
 from sklearn.model_selection import StratifiedKFold, cross_val_score, train_test_split
 
-DATA = "student_retention.csv"
+DATA = "data/student_retention.csv"
 RANDOM_STATE = 42
 
 # The seven predictors, using the dummy columns that already exist in the file.
@@ -58,9 +58,6 @@ def main():
     print(f"Rows: {len(df)}   Dropouts: {y.sum()} ({y.mean():.1%})")
 
     # ---- Baseline -------------------------------------------------------
-    # Always ask what a model that does nothing would score. Here 80% of
-    # students did not drop out, so guessing "no dropout" every time is
-    # already 80% accurate. Any accuracy number has to be read against this.
     baseline = DummyClassifier(strategy="most_frequent").fit(X, y)
     print(f"Baseline accuracy (guess the majority class): {baseline.score(X, y):.1%}\n")
 
