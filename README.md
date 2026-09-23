@@ -6,7 +6,7 @@ Analysis of 600 first-year student records from a case-study college, covering o
 
 **[View the interactive dashboard →](https://public.tableau.com/views/StudentDropoutAnalysis_17897246641970/StudentDropoutRiskPatterns?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
-![Dropout Findings dashboard](images/dropout_findings.png)
+![Dropout Findings dashboard](images/Dropout_Findings.png)
 
 **Tools** Python (scikit-learn, pandas, matplotlib), Tableau, SPSS, Excel
 **Methods** Exploratory analysis, logistic regression, multilayer perceptron, cross-validation, threshold tuning, dashboard design
