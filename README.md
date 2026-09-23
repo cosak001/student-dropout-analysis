@@ -58,7 +58,7 @@ The final SPSS dropout model.
 
 Nagelkerke R² = .202. Hosmer–Lemeshow p = .114, showing no evidence of poor fit.
 
-Full SPSS output for the dropout and seminar attendance models is in [docs/spss_output.pdf](docs/spss_output.pdf).
+Full SPSS output for the dropout and seminar attendance models is in [docs/student_retention_output_spss.pdf](docs/student_retention_output_spss.pdf).
 
 ## Python rebuild
 
